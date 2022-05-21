@@ -54,25 +54,38 @@ h1 {
 }
 
 header {
-  /* display: block; */
-  height: 4em;
-  padding: 1.5em 0;
   background-color: white;
   border-bottom: 2px solid #cccccc;
+  margin-bottom: 4rem;
 }
 
 /* Navbar */
 .nav {
   justify-content: space-between;
+  align-items: center;
+  height: 4em;
 }
 
-.nav-logo {
-  margin: 0;
-  padding: 0;
+.nav__logo {
+  display: inherit;
+  align-items: center;
+}
+
+.nav__name {
+  color: white;
   background-color: #4aaaa5;
-  height: 100%;
+  height: 4em;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 1em;
 }
 
-.nav-item + .nav-item {
+.nav__item + .nav__item {
   margin-left: 1.875rem;
+}
+
+/* main */
+.main {
+  margin-bottom: 4rem;
+  border: 2px solid #cccccc;
 }
